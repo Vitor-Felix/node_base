@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<title>LEVACC App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive-iframe {
+        width: 70%;
+        height: 50% ;
+    }
+}
+@media only screen and (min-width: 700px) {
+    .responsive-iframe {
+        width: 600px;
+        height: 370px;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hr5 {
+  border: 0;
+  border-top: double;
+  height: 1px;
+  overflow: visible;
+  padding: 0;
+  margin: 0 auto 10% auto;
+  text-align: center;
+  width:30%
+}
+
+.hr5::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 3em;
+  padding: 0 0.3em;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: gray;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: gray;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div style="background-color:rgb(0, 230, 230);" class="w3-bar w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#home" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" >Home</a>
+    <a href="#sobre" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sobre</a> 
+    <a href="#formulario" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Fomulário de Participação</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+   <a href="#home" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="#sobre" class="w3-bar-item w3-button w3-padding-large">Sobre</a>
+    <a href="#colaborar" class="w3-bar-item w3-button w3-padding-large">Fomulário de Participação</a>
+  </div>
+  </div>
+
+
+<!-- Header -->
+<header id="home" class="w3-container w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo"></h1>
+  <img src="img/logo.png" alt="Logo LEVACC App" style="width:60%;height:60%;">
+</header>
+
+<!-- First Grid -->
+<div id ="sobre" style="background-color:lightgrey" class="w3-row-padding w3-padding-64 w3-container">
+  <div>
+    <div >
+      <h1 style="text-align: center">Sobre</h1>
+      <div class="w3-center">
+        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Atrx1P2EkiQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <p class="w3-center" style="text-align: justify;font-size: x-large;"></div">Lorem ipsum suspendisse curabitur orci sem laoreet odio mi, etiam a placerat turpis dictumst interdum faucibus hac, scelerisque vel diam condimentum vel gravida ipsum. mattis conubia faucibus morbi quis sagittis volutpat, aliquam proin leo ultricies mollis, diam duis vitae quam sagittis. accumsan massa eleifend et luctus purus a, fusce eleifend accumsan ultricies cras mi, sagittis quisque sapien primis sapien. accumsan inceptos nisi erat viverra quam donec est lorem cras fusce, scelerisque sociosqu sed hendrerit at odio lobortis quisque nostra sagittis dictumst, platea interdum aliquet curabitur quam donec aliquam auctor velit.</p>
+      </div>
+  </div>
+</div>
+
+<!-- First Grid -->
+<div id ="formulario" class="w3-row-padding w3-padding-64 w3-container">
+  <div >
+    <div>
+      <h1 style="text-align: center">Formulário de Participação</h1>
+  
+      <form action="/register" enctype="multipart/form-data" method="POST">
+        <label for="fname">Nome Completo</label>
+        <input type="text" id="fname" name="fullname" >
+    
+        <label for="lname">CPF</label>
+        <input type="text" id="lname" name="cpf" >
+  
+        <label for="lname">Número SUS</label>
+        <input type="text" id="numSUS" name="SUSnumber" >
+
+
+        <label for="fileUpload">Envie a foto da sua Carteira de Vacinação</label> </div>
+        <input style="margin: 10px 0px " type="file" name="image" id="fileToUpload">
+        <br>
+        <input style="margin: 20px 0px" type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer style="background-color:lightgrey;" class="w3-container w3-padding-64 w3-center">  
+  <p class="w3-margin">Desenvolvido por Csbl-USP</p>
+  <p class="w3-margin">11/2020</p>
+  <p class="w3-margin">São Paulo</p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

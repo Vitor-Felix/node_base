@@ -1,0 +1,342 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+	background-color:#dddddd;
+}
+
+
+
+.navbar .nav,
+.navbar .nav > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+  font-size:12px;
+}
+
+.navbar-inner {
+  text-align:center;
+}
+
+.navbar-fixed-top.scroll {
+    opacity: 0.76;
+}
+
+.navbar {margin-bottom:0px;}
+.container {
+	margin-top:0;
+}
+
+#biociencias-logo {
+	background: url('../img/biociencias-logo.jpg') center center no-repeat;
+	width: 870px;
+	height: 640px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.sombra {
+	background: url("../img/sombra.jpg") center top no-repeat;
+	padding-top: 50px;
+	clear: both;
+}
+
+#sobre {
+	padding-top: 30px;
+}
+#sobre #descricao {
+	background: url("../img/descricao-fundo.jpg") left center no-repeat;
+	padding-left: 360px;
+	margin-bottom: 30px;
+}
+
+#sobre #descricao p {
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 180%;
+	color: rgba(180, 180, 180, 0.8);
+	text-shadow: 0px 1px 0px rgba(255,255,255,.7), 0 0 0px rgba(0,0,0,.5);
+}
+
+#sobre #divisao-curso h2 {
+	margin-top:50px;
+	color: rgba(118, 118, 118, 0.8);
+	text-shadow: 0px 1px 0px rgba(255,255,255,.7), 0 0 0px rgba(0,0,0,.5);
+}
+
+#divisao-boxes .divisao-box-outside {
+	width: 50%;
+	float:left;
+	padding-top:20px;
+}
+
+#divisao-boxes .divisao-box {
+	background: url("../img/box-background.jpg") top center repeat-y;
+	width: 390px;
+	padding-bottom: 20px;
+}
+#divisao-boxes h3 {
+	text-align: center;
+	height: 56px;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size:14px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 200;
+	padding-top: 5px;
+	margin:0;
+}
+
+#divisao-boxes #teoria {
+	float:right;
+}
+#divisao-boxes #teoria h3 {
+	background: url("../img/box-header-blue.jpg") top center no-repeat;
+}
+
+#divisao-boxes #pratica h3 {
+	background: url("../img/box-header-green.jpg") top center no-repeat;
+}
+
+#divisao-boxes p {
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+	width: 345px;
+	height:80px;
+	line-height: 130%;
+	margin-left: 30px;
+}
+
+#inscricoes, #patrocinio, #organizacao {
+	clear:both;
+	padding-top:70px;
+
+}
+
+#inscricoes #descricao, #patrocinio #descricao, #organizacao #descricao {
+	background: #ffffff;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding:20px;
+	position:relative;
+	margin-top: 40px;
+}
+
+#inscricoes #descricao h3, #patrocinio #descricao h3, #organizacao #descricao h3 {
+	background: url("../img/box-label.jpg") left center no-repeat;
+	position:relative;
+	width:264px;
+	padding-left: 75px;
+	top:-45px;
+	left:450px;
+	color:#ffffff;
+}
+
+#organizacao #descricao h3 {
+	padding-left: 55px;
+}
+
+#inscricoes #descricao p, #inscricoes #descricao ul{
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 18px;
+	line-height: 150%;
+	color: rgba(118, 118, 118, 0.8);
+	text-shadow: 0px 1px 0px rgba(255,255,255,.7), 0 0 0px rgba(0,0,0,.5);
+}
+
+#inscricoes #descricao #dados {
+	float:left;
+	margin-left:20%;
+}
+
+#inscricoes #descricao img {
+	float:right;
+	margin-right:20%;
+}
+
+#inscricoes #descricao fieldset {
+	margin-top:40px;
+}
+#inscricoes #descricao fieldset legend {
+	font-weight: bold;
+}
+
+#inscricoes #descricao ul li {
+	font-size:14px;
+	font-weight: bold;
+}
+
+#inscricoes #descricao .realizacao-inscricoes {
+	font-size: 30px;
+	font-weight: bold;
+	color: rgba(118, 118, 118, 0.8);
+	text-shadow: 0px 1px 0px rgba(255,255,255,.7), 0 0 0px rgba(0,0,0,.5);
+	text-align: center;
+}
+
+#inscricoes #descricao .data-inscricao {
+	font-size:18px;
+}
+
+#programacao h3, #linha-de-pesquisa h3, #localizacao-hospedagem h3, #selecionados h3 {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 150%;
+	color: rgba(118, 118, 118, 0.8);
+	text-shadow: 0px 1px 0px rgba(255,255,255,.7), 0 0 0px rgba(0,0,0,.5);
+	text-align: center;
+}
+#programacao {
+	margin: 0 auto;
+	width:100%;
+	padding-top:70px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.7), 0 0 0px rgba(0,0,0,.5);
+	clear:both;
+}
+
+#programacao #programacao-descricao {
+	margin:0 auto;
+	width: 900px;
+}
+#programacao h4 { margin-top: 30px; }
+#programacao table {
+	margin:0 auto;
+	width:900px;
+}
+
+#linha-de-pesquisa {
+	margin: 0 auto;
+	width:100%;
+	padding-top:70px;
+	text-align: center;
+}
+
+#linha-de-pesquisa #conteudo {
+	margin:0 auto;
+	text-align: center;
+	width:100%;
+}
+
+#linha-de-pesquisa #conteudo .coluna {
+	text-align: left;
+	float:left;
+	width:30%;
+	margin:10px;
+}
+
+#linha-de-pesquisa #conteudo .coluna:last-child {
+	margin-right: 0px;
+} 
+
+#linha-de-pesquisa #conteudo .pesquisa {
+	background: #ffffff;
+	width:100%;
+	padding: 05px;
+	margin-bottom: 10px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+
+#localizacao-hospedagem {
+	width:100%;
+	clear:both;
+	padding-top: 70px;
+}
+
+#localizacao-hospedagem #mapa {
+	width:60%;
+	padding:10px;
+	background: #ffffff;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	float:left;
+}
+
+#localizacao-hospedagem #descricao {
+	width:38%;
+	float:left;
+}
+#localizacao-hospedagem #localizacao, #localizacao-hospedagem #hospedagem {
+	width:100%;
+	background: #ffffff;
+	margin-left: 10px;
+	padding:10px;
+	margin-bottom: 5px;
+
+	border-left: 05px solid #0e8bcb;
+
+	-moz-box-shadow: 0px 0px 10px #888;
+	-webkit-box-shadow: 0px 0px 10px #888;
+	box-shadow: 0px 0px 10px #888;
+}
+
+#patrocinio {
+	display:block;
+}
+#patrocinio .patrocinios img {
+	margin: 25px 0;
+}
+
+#patrocinio .patrocinios span {
+	font-size:21px;
+	padding:02px 10px;
+	width:250px;
+}
+
+#selecionados {
+	padding-top: 70px;
+}
+
+.wait {
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 150%;
+	color: rgba(136, 37, 37, 0.8);
+	text-shadow: 0px 1px 0px rgba(255,255,255,.7), 0 0 0px rgba(0,0,0,.5);
+	text-align: center;
+
+}
+
+
+#coordenadores-docentes #docentes {
+	float:left;
+}
+
+#coordenadores-docentes #coordenadores {
+	float:left;
+}
+
+#coordenadores-docentes #monitores {
+	float: left;
+	margin-left:40px;
+}
+
+#coordenadores-docentes #monitores div {
+	float: left;
+	margin-right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
