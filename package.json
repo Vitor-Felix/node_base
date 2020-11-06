@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vitor-Felix/vacCardAcq_tmp.git"
+    "url": "git+https://github.com/example/project_nam.git"
   },
   "author": "csbl-usp",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vitor-Felix/vacCardAcq_tmp/issues"
+    "url": "https://github.com/example/issues"
   },
-  "homepage": "https://github.com/Vitor-Felix/vacCardAcq_tmp#readme",
+  "homepage": "https://github.com/example/project_name#readme",
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1",
