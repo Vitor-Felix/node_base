@@ -1,6 +1,5 @@
-# .lock
-package-lock.json
-
+# Temporary files
+tmp/
 
 # Logs
 logs
